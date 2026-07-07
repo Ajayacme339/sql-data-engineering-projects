@@ -1,7 +1,26 @@
-# The Purpose of this project is to perform Data Engineering using SQL and Python .I explored and analyzed Factbook and performed data engineering on it 
-Below mentioned were the tool used for the Projects:
+# SQL Data Engineering Projects
 
+Data engineering projects that combine **SQL** and **Python**, working against real datasets in SQLite and PostgreSQL.
 
-1.SQLLITE 
-2.Python Jupyter Notebook
-3.factbook database
+## Projects
+
+| Project | Description |
+|---|---|
+| Analyze CIA Factbook Data | Exploratory analysis of world demographic data (population, area, growth) using SQL on the CIA Factbook SQLite database |
+| Building a Database for Crime Reports | Designing a PostgreSQL database: schemas, tables, proper datatypes, users/groups, and loading Boston crime data |
+| Explore Fundamentals of SQL | Core SQL querying practice — filtering, aggregation, joins |
+
+## Tech stack
+
+- SQLite · PostgreSQL · Python (`sqlite3`, `psycopg2`) · Jupyter Notebook
+
+## How to use
+
+Each project folder contains its notebook and supporting files. Run with:
+
+```bash
+pip install jupyter psycopg2-binary
+jupyter notebook
+```
+
+Part of my ongoing data engineering learning journey.
